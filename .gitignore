@@ -1,0 +1,12 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### VS Code ###
+.vscode/
+src/main/java/com/streamingService/stream_client/StreamingServiceDemo.java
+
+### PROPS ###
+src/main/resources/application.properties

@@ -23,4 +23,8 @@ public class StreamingService {
             }
         });
     }
+
+    private void closeClient() {
+        
+    }
 }

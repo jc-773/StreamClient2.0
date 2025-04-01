@@ -1,5 +1,6 @@
-This application is a rewrite of SportsRadar's StreamClient for their reactive based push service. Simply call the stream(String url) method from the StreamingClient class with the stream feed enpoint as a parameter. 
+SportRadar has a hyperlink to a downloadable stream library that consumes some hot publisher (found here: https://developer.sportradar.com/football/reference/ufl-push-feeds)
 
+I recreated it in fewer lines of code using the Project Reactor framework
 
 Noticable differences:
 	1. No blocking calls

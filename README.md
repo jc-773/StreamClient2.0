@@ -1,8 +1,19 @@
-SportRadar has a hyperlink to a downloadable stream library that consumes some hot publisher (found here: https://developer.sportradar.com/football/reference/ufl-push-feeds)
+Info:
+SportRadar has a hot publisher consumer library found here: https://developer.sportradar.com/football/reference/ufl-push-feeds
 
-I recreated it in fewer lines of code using the Project Reactor framework
+This is a cleaner solution using Project Reactor and has fewer lines of code
 
 Noticable differences:
 	1. No blocking calls
 	2. Completely reactive using a Flux from Project Reactor
 	3. Error handling
+
+To use as a lib:
+Fork > Open in IDE > run "mvn clean install" > JAR will be added to your local maven repo > use as a dependency in your other projects
+
+Example pom file:
+<dependency>
+    <groupId>com.example</groupId>
+    <artifactId>my-library</artifactId>
+    <version>1.0.0</version>
+</dependency>

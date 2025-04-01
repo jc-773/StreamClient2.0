@@ -7,7 +7,6 @@ target/
 ### VS Code ###
 .vscode/
 src/main/java/com/streamingService/stream_client/StreamingServiceDemo.java
-src/main/java/com/streamingService/stream_client/DefaultSubscriber.java
 
 ### PROPS ###
 src/main/resources/application.properties

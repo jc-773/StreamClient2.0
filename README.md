@@ -1,7 +1,7 @@
 *Info:*  
 SportRadar has a hot publisher consumer library found here: https://developer.sportradar.com/football/reference/ufl-push-feeds
 
-This is a cleaner solution using Project Reactor and has fewer lines of code
+This project I created is a cleaner solution using Project Reactor and has fewer lines of code
 
 *Noticable differences:*  
 	1. No blocking calls

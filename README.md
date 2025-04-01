@@ -9,11 +9,5 @@ This is a cleaner solution using Project Reactor and has fewer lines of code
 	3. Error handling
 
 *To use as a lib:*  
-Fork > Open in IDE > run "mvn clean install" > JAR will be added to your local maven repo > use as a dependency in your other projects
+Fork > Open in IDE > run "mvn clean install" > JAR will be added to your local maven repo > use as a dependency in your other projects (i.e. add to pom file with groupId, artifactId, and version)
 
-*Example pom file:*  
-<dependency>
-    <groupId>com.example</groupId>
-    <artifactId>my-library</artifactId>
-    <version>1.0.0</version>
-</dependency>

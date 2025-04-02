@@ -8,6 +8,8 @@ target/
 .vscode/
 src/main/java/com/streamingService/stream_client/StreamingServiceDemo.java
 src/test
+mvnw.cmd
+pom.xml
 
 ### PROPS ###
 src/main/resources/application.properties

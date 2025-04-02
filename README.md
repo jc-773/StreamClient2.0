@@ -5,8 +5,9 @@ This project I created is a cleaner solution using Project Reactor and has fewer
 
 # Noticable differences   
 	1. No blocking calls  
-	2. Completely reactive with Flux and Mono support from Project Reactor  
-	3. Error handling  
+	2. Completely reactive with Flux and Mono support from Project Reactor 
+	3. Includes a default subscriber!
+	4. Error handling 
 
 # To use as a lib    
 I recently built a very simple workflow on github actions that builds my application on every push to master and publishes the JAR as an artifact. Making it easier for people like you to access my latest code easily. Head over to the actions tab in this repo to get the artifact, then add it as a dependency in your project (i.e. pom file)
